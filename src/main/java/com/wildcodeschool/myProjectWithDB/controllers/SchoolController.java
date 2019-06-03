@@ -9,6 +9,8 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@RestController
+@ResponseBody
 public class SchoolController {
     private final static String DB_URL = "jdbc:mysql://localhost:9501/wild_db_quest?serverTimezone=GMT";
     private final static String DB_USER = "root";
